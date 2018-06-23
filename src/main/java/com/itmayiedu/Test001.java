@@ -6,7 +6,7 @@ import com.itmayiedu.model.User;
 
 public class Test001 {
 
-    //private static String json = "{\"id\":\"20\",\"name\":\"李永强\",\"items\":[{\"itemId\":\"20\",\"itemName\":\"电商\"},{\"itemId\":\"21\",\"itemName\":\"互联网\"}]}";
+    private static String json = "{\"id\":\"20\",\"name\":\"李永强\",\"items\":[{\"itemId\":\"20\",\"itemName\":\"电商\"},{\"itemId\":\"21\",\"itemName\":\"互联网\"}]}";
 
     public static void main(String[] args) {
         JSONObject object = new JSONObject().parseObject(json);
